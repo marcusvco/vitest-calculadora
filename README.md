@@ -49,3 +49,18 @@ O Vitest é mais utilizado nos seguintes níveis:
    ```bash
    npm create vite@latest meu-projeto
    cd meu-projeto
+
+2. Instalar o Vitest:
+   ```bash
+   npm install -D vitest
+
+3. Configurar no package.json:
+   {
+  "scripts": {
+    "test": "vitest"
+  }
+}
+
+4. Executar os testes:
+   ```bash
+   npm run test
